@@ -17,7 +17,7 @@ To use the calculator, simply open the `calculator.html` file in your web browse
 
 ## Demo
 
-A live demo of the calculator can be found [here](https://sankar-coder.w3spaces.com/calculator.html).
+A live demo of the calculator can be found [here](https://sankar-coder.w3spaces.com/wubsites/calculator.html).
 
 ## Preview
 
