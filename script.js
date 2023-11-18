@@ -202,7 +202,7 @@ function errorCallback(error) {
                 output.value = output.value.substr(0, output.value.length -1);
                 output1.value = output1.value.substr(0, output1.value.length -1);
                 if (output1.value.length == 0) {
-                    preview.value = "";
+                    preview.innerHTML = "";
                 } else {
                     preview.innerHTML = eval(output1.value);
                 }
