@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = 8080;
+const port = process.env.PORT || 8080;
 app.set("view engine", "ejs");
 app.use(express.static("res"));
 app.get("/",(req,res) => {
