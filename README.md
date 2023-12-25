@@ -17,7 +17,7 @@ To use the calculator, simply open the `calculator.html` file in your web browse
 
 ## Demo
 
-A live demo of the calculator can be found [here](https://sankar-coding.github.io/calculator/).
+A live demo of the calculator can be found here [https://sankar-coding-dfaf.onrender.com/](https://sankar-coding-dfaf.onrender.com/).
 
 ## Preview
 
