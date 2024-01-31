@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en-US">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="title" content="Calculator" />
+<meta name="author" content="sankar-coding" />
+<meta name="details" content="A Calculator on web devloped by sankar-coding" />
+<meta name="keywords" content="sankar-coding,sankar-coder,Sankar Raul,Sankar Raul github, github.com, sankar-coder.w3spaces.com,website,sankar-coding github" />
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+    <link rel="website icon" href="https://i.postimg.cc/XYSJmSBn/channels4-profile.jpg" type="jpg" />
+</head>
+<body id="main">
+
+    <section class="forPreload">
+        <image width="10px" src="https://www.seekpng.com/png/full/294-2944357_pause-symbol-png.png" />
+    </section>
+    <div class="menuPanel" id="menuPanel">
+        <img onclick="cut()" class="menuPanelImg" id="menuPanelImg" src="https://i.ibb.co/3TPXPS0/cross-transparent-background-24.png" alt="close" />
+        <span class="s title">Settings</span>
+
+        <span onclick="showOp()" class="s1 s" id="s1">
+            Theme
+        </span>
+        <span class="themebox" id="themebox">
+            <span id="bg-of-themes"><span class="s themes1" onclick="getTheme(this)" id="themes">Dark</span><br>
+                <span class="s themes2" onclick="getTheme(this)" id="themes">Red</span><br>
+                <span class="s themes3" onclick="getTheme(this)" id="themes">Blue</span><br>
+                <span class="s themes4" onclick="getTheme(this)" id="themes">Pink</span>
+            </span>
+        </span>
+
+        <span onclick="showFoptions()" class="s2 f" id="s2">
+            Feedback
+            <span class="feedback" id="feedback">
+                <span id="bg-of-themes"><span class="f feed1" onclick="givefeed(this)" id="feeds">Send Sms</span></span><br>
+                <span class="f feed2" onclick="givefeed(this)" id="feeds">Email</span><br>
+                <span class="f feed3" onclick="givefeed(this)" id="feeds">Whats App</span><br>
+                <span class="f feed4" onclick="givefeed(this)" id="feeds">Facebook</span>
+            </span>
+        </span>
+    </div>
+    <div>
+        <div class="all-body">
+            <div class="me">
+                <p class="me1">
+                    <span id="creator">    Calculator devloped <br>by <b class="name">Sankar</b></span><img src="https://i.ibb.co/GdmNVKV/white-settings-icon-1.png" alt="menu" id="menu" onclick="options()" title="menu" />
+                </p>
+            </div>
+            <div>
+                <span onclick="speak()" class="speak" id="speak"></span>
+                <input value="" id="output" readonly placeholder="0" /> <br />
+                <textarea id="preview" value="" placeholder="0" readonly></textarea>
+            </div>
+            <div id="max">
+                <span id="mtext">Maximum length reached</span>
+            </div>
+            <div id="input-panel">
+
+                <div>
+                    <button onclick="cl()" value="AC" class="input" id="clear">AC</button>
+                    <button class="input" id="cl1" onclick="cl1()" value="DEL">DEL </button>
+                    <button class="input" onclick="showO(this)" name="/100" id="input" value="/100">%</button>
+                    <button onclick="showO(this)" name="/" class="input" id="input" value="/">÷</button>
+                </div>
+
+                <div>
+                    <button onclick="showO(this)" name="7" class="input" id="input" value="7">7</button>
+                    <button onclick="showO(this)" class="input" id="input" value="8" name="8">8</button>
+                    <button class="input" name="9" onclick="showO(this)" id="input" value="9">9</button>
+                    <button class="input" onclick="showO(this)" name="*" id="input" value="*">×</button>
+                </div>
+                <div>
+                    <button class="input" onclick="showO(this)" id="input" name="4" value="4">4</button>
+                    <button class="input" onclick="showO(this)" id="input" name="5" value="5">5</button>
+                    <button class="input" onclick="showO(this)" id="input" name="6" value="6">6</button>
+                    <button class="input" onclick="showO(this)" id="input" name="-" value="-">-</button>
+                </div>
+                <div>
+                    <button class="input" id="input" value="1" onclick="showO(this)" name="1">1</button>
+                    <button class="input" onclick="showO(this)" value="2" name="2" id="input">2</button>
+                    <button class="input" onclick="showO(this)" id="input" name="3" value="3">3</button>
+                    <button class="input" onclick="showO(this)" id="input" name="+" value="+">+</button>
+                </div>
+                <div>
+                    <button class="input" id="input" onclick="showO(this)" name="00" value="00">00</button>
+                    <button class="input" id="input" onclick="showO(this)" name="0" value="0">0</button>
+                    <button class="input" onclick="showO(this)" id="input" name="." value=".">.</button>
+                    <button class="input" value="=" onclick="equalTo()" id="equal">=</button>
+                </div>
+            </div>
+        </div>
+        <input type="button"id="hidden" value="" placeholder="0" />
+        <audio id="tapSound" src="" autoplay/>
+        <script src="./script.js" type="text/javascript" charset="utf-8"> </script>
+        <noscript> javascript not supported! </noscript>
+    </body>
+</html>
