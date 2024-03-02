@@ -2,13 +2,9 @@
 <html lang="en-US">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
-<meta name="title" content="Calculator" />
-<meta name="author" content="sankar-coding" />
-<meta name="details" content="A Calculator on web devloped by sankar-coding" />
-<meta name="keywords" content="sankar-coding,sankar-coder,Sankar Raul,Sankar Raul github, github.com, sankar-coder.w3spaces.com,website,sankar-coding github" />
 <head>
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
     <title>Calculator</title>
-    <link rel="stylesheet" href="./style.css" type="text/css" />
     <link rel="website icon" href="https://i.postimg.cc/XYSJmSBn/channels4-profile.jpg" type="jpg" />
 </head>
 <body id="main">
@@ -51,11 +47,12 @@
             <div>
                 <span onclick="speak()" class="speak" id="speak"></span>
                 <input value="" id="output" readonly placeholder="0" /> <br />
-                <textarea id="preview" value="" placeholder="0" readonly></textarea>
-            </div>
-            <div id="max">
+                <div id="max">
                 <span id="mtext">Maximum length reached</span>
             </div>
+                <p id="preview" >0</p>
+            </div>
+
             <div id="input-panel">
 
                 <div>
@@ -92,8 +89,8 @@
             </div>
         </div>
         <input type="button"id="hidden" value="" placeholder="0" />
-        <audio id="tapSound" src="" autoplay/>
-        <script src="./script.js" type="text/javascript" charset="utf-8"> </script>
+        <audio id="tapSound" src="" autoplay />
+        <script src="script.js" type="text/javascript" charset="utf-8"></script>
         <noscript> javascript not supported! </noscript>
     </body>
 </html>
