@@ -13,7 +13,7 @@ This repository contains a simple calculator web app implemented using HTML, CSS
 
 ## Usage
 
-To use the calculator, simply open the `calculator.html` file in your web browser. The calculator interface will be displayed, allowing you to perform calculations by clicking on the buttons.
+To use the calculator, simply open the `index.html` file in your web browser. The calculator interface will be displayed, allowing you to perform calculations by clicking on the buttons.
 
 ## Demo
 
