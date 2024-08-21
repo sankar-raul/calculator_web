@@ -17,7 +17,7 @@ To use the calculator, simply open the `index.html` file in your web browser. Th
 
 ## Demo
 
-A live demo of the calculator can be found here [https://sankar-coding-dfaf.onrender.com/](https://sankar-coding-dfaf.onrender.com/).
+A live demo of the calculator can be found here [https://sankarraul.me/calculator_web/](https://sankarraul.me/calculator_web/).
 
 ## Preview
 
