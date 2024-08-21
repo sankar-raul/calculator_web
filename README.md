@@ -2,7 +2,7 @@
 
 This repository contains a simple calculator web app implemented using HTML, CSS, and JavaScript. The app allows users to perform basic arithmetic operations and provides a responsive design for different screen sizes.
 
-![Calculator Screenshot](https://raw.githubusercontent.com/sankar-raul/calculator_web/main/Screenshot%202024-08-21%20213319.png)
+![Calculator Screenshot](https://raw.githubusercontent.com/sankar-raul/calculator_web/main/preview.png)
 
 ## Features
 
