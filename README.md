@@ -2,7 +2,7 @@
 
 This repository contains a simple calculator web app implemented using HTML, CSS, and JavaScript. The app allows users to perform basic arithmetic operations and provides a responsive design for different screen sizes.
 
-![Calculator Screenshot](https://i.ibb.co/RD6LFtW/Screenshot-20230623-113644.jpg)
+![Calculator Screenshot](https://raw.githubusercontent.com/sankar-raul/calculator_web/main/Screenshot%202024-08-21%20213319.png)
 
 ## Features
 
@@ -19,18 +19,6 @@ To use the calculator, simply open the `index.html` file in your web browser. Th
 
 A live demo of the calculator can be found here [https://sankarraul.me/calculator_web/](https://sankarraul.me/calculator_web/).
 
-## Preview
-
-![Calculator Preview](https://i.ibb.co/RD6LFtW/Screenshot-20230623-113644.jpg)
-
-## How to Contribute
-
-If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
-
 ## Author
 
-The calculator web app was developed by[sankar-coding](https://github.com/sankar-coding).
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+The calculator web app was developed by[sankar-raul](https://github.com/sankar-raul).
