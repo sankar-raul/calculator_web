@@ -21,4 +21,4 @@ A live demo of the calculator can be found here [https://sankarraul.me/calculato
 
 ## Author
 
-The calculator web app was developed by[sankar-raul](https://github.com/sankar-raul).
+The calculator web app was developed by [sankar-raul](https://github.com/sankar-raul).
