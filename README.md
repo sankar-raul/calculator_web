@@ -17,7 +17,7 @@ To use the calculator, simply open the `index.html` file in your web browser. Th
 
 ## Demo
 
-A live demo of the calculator can be found here [https://sankarraul.me/calculator_web/](https://sankarraul.me/calculator_web/).
+A live demo of the calculator can be found here [https://sankar-raul.github.io/calculator_web/](https://sankar-raul.github.io/calculator_web/).
 
 ## Author
 
